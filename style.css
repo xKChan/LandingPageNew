@@ -3,16 +3,24 @@
   src: url(font/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: RobotoItalics;
+  src: url(font/Roboto-LightItalic.ttf);
+}
+
 * {
   font-family: Roboto;
 }
 
 .sectionOne,
-.sectionTwo,
-.sectionThree,
 .sectionFour,
 .footer {
   padding: 0px 15%;
+}
+
+.sectionTwo,
+.sectionThree {
+  padding: 0px 20%;
 }
 
 .sectionOne,
@@ -58,7 +66,7 @@ button {
 
 .quote {
   font-size: 36px;
-  font-style: italic;
+  font-family: RobotoItalics;
   color: #1f2937;
 }
 
@@ -98,8 +106,11 @@ button {
 
 .text p,
 .text h1 {
-  padding: 0px;
   margin: 0px;
+}
+
+.text p {
+  padding-top: 10px;
 }
 
 .text button {
@@ -131,4 +142,12 @@ button {
   height: 200px;
   border: 3px solid #3882f6;
   border-radius: 10px;
+}
+
+/* Section Three */
+.sectionThree {
+  padding: 5% 20%;
+}
+.author {
+  text-align: end;
 }
