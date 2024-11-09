@@ -13,7 +13,6 @@
 }
 
 .sectionOne,
-.sectionFour,
 .footer {
   padding: 0px 15%;
 }
@@ -21,6 +20,10 @@
 .sectionTwo,
 .sectionThree {
   padding: 0px 20%;
+}
+
+.sectionFour {
+  margin: 70px 15%;
 }
 
 .sectionOne,
@@ -150,4 +153,34 @@ button {
 }
 .author {
   text-align: end;
+}
+
+/* Section Four */
+.sectionFour {
+  display: flex;
+  padding: 30px 10%;
+  color: #f9faf8;
+  justify-content: space-between;
+}
+
+.signUpButton {
+  align-self: center;
+}
+
+.signUpButton button {
+  margin-top: 10px;
+  padding: 5px 20px;
+  border-radius: 6px;
+  border-color: #f9faf8;
+}
+
+.sign {
+  font-size: 11px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: #f9faf8;
+  padding: 30px;
 }
