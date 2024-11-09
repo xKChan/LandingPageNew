@@ -95,6 +95,12 @@ button {
   gap: 35px;
 }
 
+.links ul li:hover {
+  color: rgb(211, 211, 208);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .hero img {
   height: 300px;
   width: 700px;
@@ -121,6 +127,10 @@ button {
   padding: 5px 20px;
   border-radius: 6px;
   border-color: #3882f6;
+}
+
+.text button:hover {
+  cursor: pointer;
 }
 
 /* Section two */
@@ -172,6 +182,7 @@ button {
   padding: 5px 20px;
   border-radius: 6px;
   border-color: #f9faf8;
+  cursor: pointer;
 }
 
 .sign {
