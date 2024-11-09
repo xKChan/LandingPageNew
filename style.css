@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Roboto;
+  src: url(font/Roboto-Regular.ttf);
+}
+
+* {
+  font-family: Roboto;
+}
+
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour,
+.footer {
+  padding: 0px 150px;
+}
+
+.sectionOne,
+.footer {
+  background-color: #1f2937;
+}
+
+.text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.text p,
+.links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+button,
+.sectionFour {
+  background-color: #3882f6;
+}
+
+.sectionTwo h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.sectionThree {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  color: #1f2937;
+  font-weight: 900;
+}
+
+/*  */
+/* Format */
+/* Section one */
+.links ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links ul {
+  display: flex;
+  gap: 35px;
+}
+
+.hero img {
+  width: 300px;
+  height: 150px;
+}
+
+/* Section two */
