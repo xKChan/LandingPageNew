@@ -110,3 +110,25 @@ button {
 }
 
 /* Section two */
+
+.sectionTwo h3 {
+  text-align: center;
+}
+
+.images p {
+  width: 200px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.images img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
